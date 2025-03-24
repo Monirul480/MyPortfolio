@@ -1,0 +1,109 @@
+/* Import Montserrat font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* General font settings */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1440px;
+    margin:  0 auto;
+}
+
+/* Custom heading styles */
+h1 {
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+
+/* Body XLarge (20px, Bold, Line Height 150%) */
+.body-xlarge-bold {
+    font-size: 20px;
+    font-weight: 700; /* Bold */
+    line-height: 1.5;
+}
+
+/* Body XLarge (20px, Regular, Line Height 150%) */
+.body-xlarge-regular {
+    font-size: 20px;
+    font-weight: 400; /* Regular */
+    line-height: 1.5;
+}
+
+/* Body Large (18px, Bold, Line Height 150%) */
+.body-large-bold {
+    font-size: 18px;
+    font-weight: 700; /* Bold */
+    line-height: 1.5;
+}
+
+/* Body Large (18px, Regular, Line Height 150%) */
+.body-large-regular {
+    font-size: 18px;
+    font-weight: 400; /* Regular */
+    line-height: 1.5;
+}
+
+/* Body Medium (16px, Bold, Line Height 150%) */
+.body-medium-bold {
+    font-size: 16px;
+    font-weight: 700; /* Bold */
+    line-height: 1.5;
+}
+
+/* Body Medium (16px, Regular, Line Height 150%) */
+.body-medium-regular {
+    font-size: 16px;
+    font-weight: 400; /* Regular */
+    line-height: 1.5;
+}
+
+/* Body Small (14px, Bold, Line Height 150%) */
+.body-small-bold {
+    font-size: 14px;
+    font-weight: 700; /* Bold */
+    line-height: 1.5;
+}
+
+/* Body Small (14px, Regular, Line Height 150%) */
+.body-small-regular {
+    font-size: 14px;
+    font-weight: 400; /* Regular */
+    line-height: 1.5;
+}
+
+/* Body XSmall (12px, Bold, Line Height 150%) */
+.body-xsmall-bold {
+    font-size: 12px;
+    font-weight: 700; /* Bold */
+    line-height: 1.5;
+}
+
+/* Body XSmall (12px, Regular, Line Height 150%) */
+.body-xsmall-regular {
+    font-size: 12px;
+    font-weight: 400; /* Regular */
+    line-height: 1.5;
+}
+
+

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- tailwind css -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    
+
     <!--  css link -->
     <link rel="stylesheet" href="css/style.css">
     <!-- custom tailwind css  -->
@@ -29,13 +29,58 @@
 </head>
 
 <body>
-    <h1 class="text-mRed">My Portfolio</h1>
-    <p>monir Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex autem odio maiores eveniet repellendus
-        suscipit vero labore ea corporis. Provident quis, ab, quod dolores sed rerum facilis, repudiandae optio iusto
-        praesentium et ad asperiores nam ullam. Ipsum, enim error incidunt repudiandae consectetur adipisci perferendis,
-        pariatur ab quod iste molestias libero.</p>
 
-        
+    <!-- hero section  -->
+    <div class="max-w-[1440px] bg-mPink h-[638px]">
+        <img class="absolute h-[146px] w-[146px] ml-[417px] -mt-[50px] hidden md:block sm:block" src="assets/img/Background (1).png" alt="">
+        <!-- nav section  -->
+        <nav>
+            <div class="navbar container pt-[40px] pb-[32px] bg-opacity-30 h-[48px] ">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                            <li><a>About</a></li>
+                            <li><a>Services</a></li>
+                            <li><a>Portfolio</a></li>   
+                            <li><a>Blog</a></li>
+                        </ul>
+                    </div>
+
+                    <a class="btn hover:bg-mPink border-0 pl-[0] btn-ghost text-xl w-[136px] font-semibold text-[30px]  h-[45px]"><span
+                            class="text-mDark " style="letter-spacing: -0.22em;">RR<span
+                                class="text-mRed">F</span></span>EXAM</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu gap-[6px] menu-horizontal px-1">
+                        <li><a>About</a></li>
+
+                        <li><a>Services</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blog</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a
+                        class="w-[127px] bg-mDark mWhite hover:cursor-pointer  text-mWhite px-4 py-2  inline-block text-center body-medium-bold">Let’s
+                        Talk</a>
+
+                </div>
+            </div>
+        </nav>
+        <!-- banner section  -->
+         <div class="container h-[565px] flex ">
+            <div class="w-[457px]">monir</div>
+            <div>img</div>
+         </div>
+    </div>
 </body>
 
 </html>

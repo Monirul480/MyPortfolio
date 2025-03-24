@@ -31,8 +31,9 @@
 <body>
 
     <!-- hero section  -->
-    <div class="max-w-[1440px] bg-mPink h-[638px]">
-        <img class="absolute h-[146px] w-[146px] ml-[417px] -mt-[50px] hidden md:block sm:block" src="assets/img/Background (1).png" alt="">
+    <div class="max-w-[1440px] h-auto  bg-mPink md:h-[638px]">
+        <img class="absolute h-[146px] w-[146px] ml-[417px] -mt-[70px] hidden md:block sm:block"
+            src="assets/img/Background (1).png" alt="">
         <!-- nav section  -->
         <nav>
             <div class="navbar container pt-[40px] pb-[32px] bg-opacity-30 h-[48px] ">
@@ -49,14 +50,15 @@
                             class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                             <li><a>About</a></li>
                             <li><a>Services</a></li>
-                            <li><a>Portfolio</a></li>   
+                            <li><a>Portfolio</a></li>
                             <li><a>Blog</a></li>
                         </ul>
                     </div>
 
-                    <a class="btn hover:bg-mPink border-0 pl-[0] btn-ghost text-xl w-[136px] font-semibold text-[30px]  h-[45px]"><span
+                    <a
+                        class="btn hover:bg-mPink gap-3 border-0 pl-[0] btn-ghost text-xl w-[136px] font-semibold text-[30px]  h-[45px]"><span
                             class="text-mDark " style="letter-spacing: -0.22em;">RR<span
-                                class="text-mRed">F</span></span>EXAM</a>
+                                class="text-mRed">F</span></span> EXAM</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu gap-[6px] menu-horizontal px-1">
@@ -76,10 +78,29 @@
             </div>
         </nav>
         <!-- banner section  -->
-         <div class="container h-[565px] flex ">
-            <div class="w-[457px]">monir</div>
-            <div>img</div>
-         </div>
+        <div class="container h-auto md:h-[565px] flex flex-col gap-12 sm:flex-row items-center px-[16px] md:px-0">
+            <div class="sm:w-[457px]">
+                <p class="body-xlarge-regular sm:mb-[50px] mt-12 sm:mt-0">UX Designer</p>
+                <h2 class="my-[12px] ">Hi There, I’m <br>
+                    <samp class="text-mRed">Monirul Islam</samp>
+                </h2>
+                <p class="body-medium-regular">Welcome to my portfolio of captivating digital experiences. Explore my
+                    work and let's create something extraordinary together.</p>
+                <!-- button group -->
+                <div class="flex  gap-[20px] mt-[48px]">
+                    <button
+                        class="bg-mDark text-white py-[12px] px-[56px]  hover:underline hover:cursor-pointer h-[48px] w-[177px] body-medium-bold">Hire
+                        Me</button>
+                    <button
+                        class=" text-mDark border-1 py-[12px] px-[56px]  hover:underline hover:cursor-pointer h-[48px] w-[177px] body-medium-bold">Portfolio</button>
+                </div>
+
+            </div>
+            <div class="relative w-full sm:w-[687px] h-[300px] sm:h-[565px] bottom-0">
+                <img class="absolute bottom-0" src="assets/img/Image.png" alt="">
+                <img class="absolute bottom-0 sm:right-32 right-20 h-[330px] sm:h-auto" src="assets/myimg/myimg.png" alt="">
+            </div>
+        </div>
     </div>
 </body>
 

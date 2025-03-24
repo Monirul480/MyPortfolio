@@ -106,13 +106,12 @@ h3 {
     line-height: 1.5;
 }
 
-li a {
+ul li a {
     font-size: 18px;
     font-weight: 700; 
     line-height: 1.5;
 }
- li a:hover{
-    
+ul li a:hover{
     background-color: transparent;
     text-decoration: underline;
     

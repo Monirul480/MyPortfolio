@@ -117,3 +117,26 @@ ul li a:hover{
     
 }
 
+ /* Remove number input arrows */
+ input[type="number"]::-webkit-inner-spin-button,
+ input[type="number"]::-webkit-outer-spin-button {
+     -webkit-appearance: none;
+     margin: 0;
+ }
+
+ input[type="number"] {
+     -moz-appearance: textfield; /* Firefox */
+ }
+
+ /* Completely remove the blue outline on focus */
+ input:focus {
+     outline: none !important;
+     box-shadow: none !important;
+     border: 1px solid #d1d5db !important; /* Keeps border visible */
+ }
+
+ /* Remove focus highlight around the increment/decrement buttons in Chrome */
+ input[type="number"]:focus::-webkit-inner-spin-button,
+ input[type="number"]:focus::-webkit-outer-spin-button {
+     display: none;
+ }
